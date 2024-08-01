@@ -6,6 +6,7 @@ int main(){
         printf("Enter index[%d]: ",i);
         scanf("%d",&arr[i]);
     }
+    for(int j=0; j<10;j++)
     for(int i=0; i<10; i++){
         int temp;
         if(arr[i]>arr[i+1]){
